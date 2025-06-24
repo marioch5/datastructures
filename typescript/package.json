@@ -1,0 +1,23 @@
+{
+  "name": "datastructures",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "engineStrict": true,
+  "engines": {
+    "node": "22.14"
+  },
+  "scripts": {
+    "test": "node --inspect-brk ./node_modules/jest/bin/jest.js --runInBand --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.8.0",
+  "devDependencies": {
+    "@types/jest": "^30.0.0",
+    "jest": "^30.0.2",
+    "ts-jest": "^29.4.0",
+    "typescript": "^5.8.3"
+  }
+}
