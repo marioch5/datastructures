@@ -260,7 +260,6 @@ export default class DoublyLinkedList<T> implements Iterable<T> {
       throw(e?: any): IteratorResult<T> {
         if (e === undefined) {
           throw new Error("Iterator aborted with no error provided");
-          return { value: undefined, done: true };
         }
         throw e;
       },
